@@ -1,0 +1,51 @@
+* {}
+
+
+/* nav container */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+   
+}
+
+.logo-items {
+    display: flex;
+    /* width: 50%; */
+    /* margin-top: 30px; */
+    border: 2px solid red;
+    /* gap: 20px; */
+}
+
+.logo-items p {
+    font-size: 45px;
+
+}
+
+/* .angcor-items img {
+    width: 1%;
+    object-fit: cover;
+} */
+.Frame-img{
+     
+    width: 86.041px;
+height: 40px;
+padding-top: 50px;
+justify-content: center;
+}
+
+
+.angcor-items {
+    /* width: 50%; */
+    /* border: 2px solid red; */
+}
+
+.angcor-items a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 19px;
+
+    /* justify-content: right; */
+}
