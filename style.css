@@ -20,11 +20,13 @@
 
 .logo-items {
     display: flex;
+    /* color: #000; */
 
 }
 
 .logo-items p {
     font-size: 40px;
+    /* color:white; */
 
 }
 
@@ -249,46 +251,37 @@ font-weight: 400;
 line-height: 30px;
 width: 483px;
 }
+/* FOOTER CONTAINER  */
+.footer-container{
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color:  #0B0223;
+}
+.footer-logo{
+    text-align: center;
+    /* margin: 0px; */
+    width: 20%;
+    margin: auto;
 
+}
+div img p{
+    /* text-align: center;
+    align-items: center;
+    justify-content: calc(90% - 40%); */
+}
+.footer-ancar-conteiner{
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.footer-ancar{
+    text-decoration: none;
+    padding: 30px;
+    color:white;
+}
 
 
 
