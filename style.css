@@ -1,5 +1,6 @@
 * {
     font-family: 'Work Sans', sans-serif;
+    margin: 0px;
 }
 
 
@@ -224,64 +225,119 @@ div .title {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 900px;
+    margin-bottom: 0px;
 }
-.play-games-img{
-    margin-top: 50px;
+
+.play-games-img {
+    padding-top: 20%;
 }
-.position-img{
+
+.position-img {
     position: relative;
-  bottom: 200px;
-  text-align: right;
+    bottom: 300px;
+    text-align: right;
 }
+
 .photo-card {
     width: 318px;
     height: 365px;
 }
-div h4{
+
+div h4 {
     width: 426px;
-font-size: 48px;
-font-weight: 700;
-line-height: 60px; 
-margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
 }
-.online-discrivsion{
+
+.online-discrivsion {
     color: #534C64;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-width: 483px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 483px;
 }
-/* FOOTER CONTAINER  */
-.footer-container{
+
+/* new contant on my assignment */
+.new-content{
+    /* width: 70%;
+    margin: auto; */
+}
+.border-new-content{
+    display: flex;
+    width: 350px;
+    height: 350px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
     width: 90%;
+    margin: 0 auto;
+
+   
+}
+.border-new{
+    display:flex;
+    width: 100%;
     margin: auto;
+gap: 5px;
+}
+.border-new:hover{
+    border: 2px solid black;
+        border-radius: 50px;
+background: #FFF;
+}
+
+
+
+/* FOOTER CONTAINER  */
+.footer-container {
+    /* width: 90%;
+    margin: auto; */
     justify-content: space-evenly;
     text-align: center;
-    background-color:  #0B0223;
+    background-color: #0B0223;
 }
-.footer-logo{
+
+.footer-logo {
     text-align: center;
     /* margin: 0px; */
-    width: 20%;
+    width: 15%;
     margin: auto;
 
 }
-div img p{
+
+div img p {
     /* text-align: center;
     align-items: center;
     justify-content: calc(90% - 40%); */
 }
-.footer-ancar-conteiner{
+
+.footer-ancar-conteiner {
     justify-content: space-between;
     gap: 30px;
     padding: 20px;
 
 }
-.footer-ancar{
+
+.footer-ancar {
     text-decoration: none;
     padding: 30px;
-    color:white;
+    color: white;
 }
+.footer-img-container{
+   margin-top: 30px;
+   cursor: pointer;
+}
+.footer-img{
+    padding: 20px;
+}
+/* button .footer-img{
+    background-color: #0B0223;
+    margin: 0px;
+    padding: 0px;
+} */
 
 
 
