@@ -173,7 +173,82 @@ div h2 {
 
 }
 
+/* section card container */
+.card-container {
+    /* width: 90%;
+    margin: 0 auto; */
+}
 
+div h3 {
+    color: #0B0223;
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.span-color-h3 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+div .title {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+
+.card-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+    width: 90%;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+/* section play game online */
+.play-games-online {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.play-games-img{
+    margin-top: 50px;
+}
+.position-img{
+    position: relative;
+  bottom: 200px;
+  text-align: right;
+}
+.photo-card {
+    width: 318px;
+    height: 365px;
+}
+div h4{
+    width: 426px;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px; 
+margin: 0;
+}
+.online-discrivsion{
+    color: #534C64;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 483px;
+}
 
 
 
